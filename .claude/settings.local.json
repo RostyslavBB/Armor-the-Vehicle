@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -aoE \"AnimStack::[A-Za-z0-9_|. ]{0,40}|Deformer::[A-Za-z0-9_:]{0,30}|mixamorig:[A-Za-z]{0,20}\" Art/stickman.fbx)",
+      "Bash(grep -aoE \"[A-Za-z_:|]{4,40}\" stickman.fbx)"
+    ]
+  }
+}
